@@ -30,6 +30,7 @@ public class Fighter_Base : MonoBehaviour {
 	
 	public void UseAbility(int p_iN, Fighter_Base p_xTarget){
 		if (p_iN < m_xaAbilities.Count && p_iN >= 0 && m_xaAbilities.Count > 0){
+			print(m_xName + " used " + m_xaAbilities[p_iN].m_xName);
 			m_xaAbilities[p_iN].Use(this, p_xTarget);
 		}
 	}

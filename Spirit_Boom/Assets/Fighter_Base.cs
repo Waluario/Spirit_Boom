@@ -19,7 +19,7 @@ public class Fighter_Base : MonoBehaviour {
 	m_iStatus,
 	m_iStatusTime;
 	
-	public List<Ability_Base> m_xaAbilities = new List<Ability_Base>();
+	public List<Ability_Base> m_xaAbilities/* = new List<Ability_Base>()*/;
 	
 	void Update(){
 		if (m_iHp <= 0){
@@ -35,6 +35,8 @@ public class Fighter_Base : MonoBehaviour {
 	}
 	
 	public void TakeDamage(int p_iDmg){
+		print (m_xName + " took " + p_iDmg + " damage!");
+	
 		if (p_iDmg > m_iHp){
 			m_iHp = 0;
 			m_iStatus = 1;

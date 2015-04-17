@@ -32,7 +32,7 @@ public class Ability_Base : MonoBehaviour {
 	}
 	
 	public void Use(Fighter_Base p_xUser, Fighter_Base p_xTarget){
-		int _iA = Random.Range(0, p_xUser.m_iAcc) + m_iHit + p_xUser.m_iHit;
+		int _iA = Random.Range(p_xUser.m_iAcc, p_xUser.m_iAcc * 2) + m_iHit + p_xUser.m_iHit;
 		
 		print (_iA + " Vs. " + p_xTarget.m_iEvd);
 		
@@ -42,7 +42,7 @@ public class Ability_Base : MonoBehaviour {
 			return;
 		}
 		
-		p_xTarget.m_iHp -= DmgCalculation(p_xUser, p_xTarget);
+		p_xTarget.TakeDamage((DmgCalculation(p_xUser, p_xTarget)));
 	}
 	
 	public int DmgCalculation(Fighter_Base p_xUser, Fighter_Base p_xTarget){

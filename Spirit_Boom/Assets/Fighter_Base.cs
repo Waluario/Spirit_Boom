@@ -42,6 +42,9 @@ public class Fighter_Base : MonoBehaviour {
 			m_iHp = 0;
 			m_iStatus = 1;
 		}
+		else {
+			m_iHp -= p_iDmg;
+		}
 	}
 	
 	public void StatusEffect(){

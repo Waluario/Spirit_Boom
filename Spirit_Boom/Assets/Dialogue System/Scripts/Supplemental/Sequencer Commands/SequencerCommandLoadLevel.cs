@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using PixelCrushers.DialogueSystem;
-using PixelCrushers.DialogueSystem.SequencerCommands;
 
 namespace PixelCrushers.DialogueSystem.SequencerCommands {
 

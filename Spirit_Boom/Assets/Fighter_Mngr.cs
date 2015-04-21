@@ -22,6 +22,7 @@ public class Fighter_Mngr : MonoBehaviour {
 		m_xFighter0.AddAbility(new Ability_Base("Pound", 50, 50, 0));
 		m_xFighter0.AddAbility(new Ability_Base("Smash", 75, 25, 0));
 		m_xFighter1.AddAbility(new Ability_Base("Tackle", 20, 75, 0));
+		m_xFighter1.AddAbility(new Ability_Base("Slap", 0, 100, 0));
 	}
 	
 	// Update is called once per frame
@@ -31,7 +32,7 @@ public class Fighter_Mngr : MonoBehaviour {
 			m_bTurn = !Menu_Action(m_xFighter0, m_xFighter1);
 		}
 		else if (!m_bTurn){
-			m_xFighter1.UseAbility(0, m_xFighter0);
+			m_xFighter1.UseAbility(Random.Range(0, m_xFighter1.m_xaAbilities.Count - 1), m_xFighter0);
 			m_bTurn = true;
 		}
 	}

@@ -56,6 +56,8 @@ public class Ability_Base : MonoBehaviour {
 	}
 	
 	public int DmgCalculation(int p_iAtk, int p_iDef){
+		print (p_iAtk + m_iPow + " Vs. " + p_iDef);
+		
 		if (p_iAtk + m_iPow < p_iDef){
 			return 0;
 		}

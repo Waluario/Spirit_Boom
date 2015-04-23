@@ -18,21 +18,21 @@ public class Fighter_Mngr : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		m_xFighter0.AddAbility(new Ability_Base("Strike", 25, 75, 0));
-		m_xFighter0.AddAbility(new Ability_Base("Pound", 50, 50, 0));
-		m_xFighter0.AddAbility(new Ability_Base("Smash", 75, 25, 0));
-		m_xFighter1.AddAbility(new Ability_Base("Tackle", 20, 75, 0));
-		m_xFighter1.AddAbility(new Ability_Base("Slap", 0, 100, 0));
+		m_xFighter0.AddAbility(new Ability_Base("Strike", 25, 75, 0, e_Element.Earth));
+		m_xFighter0.AddAbility(new Ability_Base("Pound", 50, 50, 0, e_Element.Earth));
+		m_xFighter0.AddAbility(new Ability_Base("Smash", 75, 25, 0, e_Element.Earth));
+		m_xFighter1.AddAbility(new Ability_Base("Tackle", 20, 75, 0, e_Element.Earth));
+		m_xFighter1.AddAbility(new Ability_Base("Slap", 0, 100, 0, e_Element.Earth));
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (m_bTurn){
 			//m_xFighter0.UseAbility(m_iMenuChoice, m_xFighter1);
-			m_bTurn = !Menu_Action(m_xFighter0, m_xFighter1);
+			//m_bTurn = !Menu_Action(m_xFighter0, m_xFighter1);
 		}
 		else if (!m_bTurn){
-			m_xFighter1.UseAbility(Random.Range(0, m_xFighter1.m_xaAbilities.Count - 1), m_xFighter0);
+			//m_xFighter1.UseAbility(Random.Range(0, m_xFighter1.m_xaAbilities.Count - 1), m_xFighter0);
 			m_bTurn = true;
 		}
 	}
@@ -62,7 +62,7 @@ public class Fighter_Mngr : MonoBehaviour {
 		}
 		
 		if (Input.GetKeyDown("d")){
-			p_xUser.UseAbility(m_iMenuChoice, p_xTarget);
+			//p_xUser.UseAbility(m_iMenuChoice, p_xTarget);
 			
 			return true;
 		}

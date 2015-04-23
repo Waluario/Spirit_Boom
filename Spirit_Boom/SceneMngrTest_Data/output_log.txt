@@ -1,0 +1,35 @@
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 680M  (ID=0x11a0)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\DialogueSystem.dll (this message is harmless)
+Loading C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\DialogueSystem.dll into Unity Child Domain
+Platform assembly: C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\LuaInterpreter.dll (this message is harmless)
+Loading C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\LuaInterpreter.dll into Unity Child Domain
+- Completed reload, in  0.127 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\MartinM93\Documents\GitHub\Spirit_Boom\Spirit_Boom\Spirit_Boom\SceneMngrTest_Data\Managed\System.dll (this message is harmless)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.494146 ms
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 382.
+Total: 0.611981 ms (FindLiveObjects: 0.035350 ms CreateObjectMapping: 0.182073 ms MarkObjects: 0.370609 ms  DeleteObjects: 0.023186 ms)
+

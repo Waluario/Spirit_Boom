@@ -16,7 +16,9 @@ public enum e_Element{
 };
 
 public class Ability_Base : MonoBehaviour {
-	public string m_xName;
+	public string 
+	m_xName,
+	m_xDesc;
 	
 	public int
 	m_iPow,

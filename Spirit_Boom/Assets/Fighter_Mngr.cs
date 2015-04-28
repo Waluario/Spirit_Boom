@@ -4,7 +4,6 @@ using System.Collections;
 public class Fighter_Mngr : MonoBehaviour {
 
 	public Fighter_Player m_xFighter0;
-	
 	public Fighter_Enemy m_xFighter1;
 	
 	public Ability_Mngr
@@ -22,24 +21,10 @@ public class Fighter_Mngr : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		m_bTurn = Random.Range(0, 2) == 0 ? true : false;
-		
-		/*m_xFighter0.AddAbility(new Ability_Base("Crystal Whip", 15, 50, 5, e_Element.Fire));
-		m_xFighter0.AddAbility(new Ability_Base("Water Surge", 10, 75, 3, e_Element.Water));
-		m_xFighter0.AddAbility(new Ability_Base("Fire Blast", 10, 75, 3, e_Element.Fire));
-		m_xFighter0.AddAbility(new Ability_Base("Inferno", 35, 10, 8, e_Element.Fire));
-		
-		m_xFighter1.AddAbility(new Ability_Base("Tackle", 10, 75, 3, e_Element.Earth));
-		m_xFighter1.AddAbility(new Ability_Base("Water Whip", 15, 50, 5, e_Element.Water));
-		m_xFighter1.AddAbility(new Ability_Base("Fire Whip", 15, 50, 5, e_Element.Fire));
-		m_xFighter1.AddAbility(new Ability_Base("Into the Depths", 35, 10, 8, e_Element.Water));*/
-		
-		m_bTurn = (Random.Range(0, 2) == 0 ? true : false);
 	}
 	
 	void Update () {
-		if (!m_bTurn){			
-			//int _iI = Random.Range(0, m_xFighter1.m_xaAbilities.Count + (m_bHasMoved ? 0 : 0));
-			
+		if (!m_bTurn){
 			Fighter_Action(m_xFighter1.Act());
 		}
 		

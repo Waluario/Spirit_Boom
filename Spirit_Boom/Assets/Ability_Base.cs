@@ -60,6 +60,6 @@ public class Ability_Base : MonoBehaviour {
 			return 0;
 		}
 		
-		return (p_iAtk + m_iPow - p_iDef);
+		return (p_iAtk - p_iDef);
 	}
 }
